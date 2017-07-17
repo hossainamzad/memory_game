@@ -30,8 +30,7 @@ var checkForMatch = function(){
     if (cardsInPlay[0].rank === cardsInPlay[1].rank ){
        alert("You found a match!");
       console.log("You have found a match!");
-    }
-    else {
+    }else{
       alert("Sorry, Try again");
       console.log("you clicked one king and queen.");
     }
