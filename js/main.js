@@ -28,22 +28,12 @@ var checkForMatch = function(){
   // this stateent is checking whether the user has played two cards and the number is .
   if (cardsInPlay.length === 2){
     if (cardsInPlay[0].rank === cardsInPlay[1].rank ){
-
        alert("You found a match!");
-
       console.log("You have found a match!");
-    }else if (cardsInPlay[2].rank === cardsInPlay[3].rank){
-      //to console log, if yoou choose to do it over alert, turn the following line on:
-      // console.log("Sorry, Try again");
-       alert("You found a match!");
-       console.log("You have a match too.");
-
-
-    }else {
+    }
+    else {
       alert("Sorry, Try again");
       console.log("you clicked one king and queen.");
-
-
     }
   }
 }
@@ -82,4 +72,5 @@ var createBoard = function(){
   }
 };
 createBoard();
+
 
